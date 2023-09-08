@@ -21,7 +21,6 @@ class Solution:
             if 2 * count - 1 > n:
                 return ""
             for _ in range(count):
-                print(i)
                 result[i] = char
                 if i + 2 < n:
                     i += 2
